@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.MainFragment">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_fragment"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        android:gravity="left">
+
+        <TextView
+            android:text="@string/main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/lName"
+            android:hint="@string/lName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/fName"
+            android:hint="@string/fName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/age"
+            android:hint="@string/age"
+            android:layout_width="match_parent"
+            android:inputType="numberSigned"
+            android:maxLength="3"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/gender"
+            android:hint="@string/gender"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:id="@+id/type"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:entries="@array/type_array"
+            android:minWidth="120dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

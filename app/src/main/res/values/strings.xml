@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Lab-07</string>
+    <string name="main">Main Fragment</string>
+    <string name="teacher">Teacher Fragment</string>
+    <string name="student">Student Fragment</string>
+    <string name="lName">Last Name</string>
+    <string name="fName">First Name</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string-array name="type_array">
+        <item>Choose</item>
+        <item>Teacher</item>
+        <item>Student</item>
+    </string-array>
+
+    <string name="profession">Profession</string>
+    <string name="degree">Degree</string>
+    <string name="subject">Subjects</string>
+
+    <string name="school">School</string>
+    <string name="grade">Grade</string>
+    <string name="course">Course</string>
+    <string name="gpa">GPA</string>
+
+    <string name="send">Send</string>
+</resources>
